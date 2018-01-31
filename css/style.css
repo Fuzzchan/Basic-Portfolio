@@ -32,10 +32,14 @@ links{
     background-color:rgb(8, 117, 8);
     max-width: 650px;
     padding: 20px 20px 0px;
-    margin-bottom: 15px;S
+    margin-bottom: 15px;
     border: 2px solid;
 }
 
+.imageparagraph{
+    max-width: 650px;
+    overflow: auto;
+}
 .connect{
     float: right;
     text-align: center;
