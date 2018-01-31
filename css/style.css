@@ -32,17 +32,8 @@ links{
     background-color:rgb(8, 117, 8);
     max-width: 650px;
     padding: 20px 20px 0px;
-    margin: 0 auto;
+    margin-bottom: 15px;S
     border: 2px solid;
-}
-
-img{
-    float: left;
-    margin-top: 15px;
-}
-
-p{
-    float: left;
 }
 
 .connect{
@@ -56,6 +47,15 @@ p{
     margin-top: 15px;
     background-color:rgb(8, 117, 8);
 }
+
+p{
+    float: left;
+    line-height: 150%;
+    max-width: 450px;
+
+}
+
+
 
 .warcontainer,
 .bosscontainer{
@@ -76,6 +76,7 @@ text1{
     bottom: 20px;
     left:0;
     width: 100%;
+    color: black;
     background-color: rgb(8, 117, 8);
     padding: 10px 0;
 }
@@ -86,16 +87,58 @@ text1{
     position: relative;
     text-align: center;
     margin-top: 15px;
+    margin-bottom:10px;
 }
 
-.text2{
-    position:absolute;
-    bottom: 20px;
-    left:0;
-    width: 100%;
+.contact{
+    float: left;
+}
+
+label{
+    clear: both;
+    display: inline-block;
+    width: 100px;
+    text-decoration: underline;
+    margin: 0 auto;
+}
+input {
+  display: inline-block;
+  width:200px;
+
+}
+
+textarea{
+    vertical-align: top;
+    width:200px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+.submit{
+    align-content: left;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+form{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.footer{
+    clear: both;
+    text-align: center;
+    border-top: 10px;
+    border-color: blue;
     background-color: rgb(8, 117, 8);
-    padding: 10px 0;
+    padding: 20px;
 }
 
-
-
+.linebreak{
+    clear: both;
+    background-color: blue;
+    padding:5px;
+}
