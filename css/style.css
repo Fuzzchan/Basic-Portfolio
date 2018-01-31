@@ -31,7 +31,7 @@ links{
     clear: both;
     background-color:rgb(8, 117, 8);
     max-width: 650px;
-    padding-top: 20px;
+    padding: 20px 20px 0px;
     margin: 0 auto;
     border: 2px solid;
 }
@@ -63,7 +63,7 @@ p{
 }
 
 .warcontainer{
-background-color: rgb(8, 117, 8);
+
 max-width: 150px;
 position: relative;
 margin-right: 30px;
@@ -71,12 +71,30 @@ margin-top: 15px;
 text-align: center;
 }
 
-.bosscontainer{
+text1{
+    position:absolute;
+    bottom: 20px;
+    left:0;
+    width: 100%;
     background-color: rgb(8, 117, 8);
+    padding: 10px 0;
+}
+
+.bosscontainer{
+
     max-width: 150px;
     position: relative;
     text-align: center;
     margin-top: 15px;
+}
+
+.text2{
+    position:absolute;
+    bottom: 20px;
+    left:0;
+    width: 100%;
+    background-color: rgb(8, 117, 8);
+    padding: 10px 0;
 }
 
 
