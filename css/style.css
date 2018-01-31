@@ -1,0 +1,65 @@
+.header{
+    background:white;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+body{
+    background-image: url(C:\Users\Fuzzytop\Desktop\Programming\HomeWork1\Basic-Portfolio\images)
+}
+
+name{
+    background: green;
+    font-weight: bold;
+    font-size: 64;
+    padding: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+links{
+    float: right;
+    padding: 20px;
+    background-color: green;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.about{
+    clear: both;
+    background: grey;
+    float: left;
+    max-width: 650px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+head{
+    font-size: 42px;
+    color: darkgreen;
+}
+
+.connect{
+    float: right;
+    text-align: center;
+    background:grey;
+    max-width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+im{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+p{
+    float: left;
+}
+
