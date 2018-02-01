@@ -1,19 +1,25 @@
-.header{
-    background:white;
-    margin: 0 auto;
-    max-width: 960px;
+
+
+
+
+body {
+    background-image: url(https://wallpaperlayer.com/img/2015/9/green-background-wallpaper-5889-6157-hd-wallpapers.jpg);
+  /* this is new */ max-width: 960px;
 }
 
-body{
-    background-image: url(https://wallpaperlayer.com/img/2015/9/green-background-wallpaper-5889-6157-hd-wallpapers.jpg)
-}
-
-name{
+name {
     font-weight: bold;
     font-size: 24px;
     padding: 20px;
     margin: 0 auto 20px;
     float: left;
+}
+
+.header {
+   /* background:white; this was just a line */
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: auto; /*i did this so that the .header box would be big enough to fit your name and your links. otherwise, they werent lining up for me*/
 }
 
 links{
@@ -27,13 +33,24 @@ links{
     margin: 0 auto;
 }
 
-.about{
-    clear: both;
+/*this is where my changes meant to start...i had to change a few more things up above to actually make the page work. making the text "About Me" have a green background */
+.heads {
     background-color:rgb(8, 117, 8);
+    border: 0px;
+
+
+}
+.about{
+   /* clear: both;
+    background-color:rgb(8, 117, 8); */
+    float: left; 
+    overflow: auto;
+    /*thats the end of my changes*/
     max-width: 650px;
     padding: 20px 20px 0px;
-    margin-bottom: 15px;S
+    margin-bottom: 15px;
     border: 2px solid;
+
 }
 
 .connect{
