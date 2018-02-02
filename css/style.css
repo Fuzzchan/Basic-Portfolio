@@ -25,6 +25,7 @@ links{
 .container{
     max-width: 960px;
     margin: 0 auto;
+    
 }
 
 .about{
@@ -37,8 +38,7 @@ links{
 }
 
 .imageparagraph{
-    max-width: 650px;
-    overflow: auto;
+    float: left;
 }
 .connect{
     float: right;
@@ -53,10 +53,7 @@ links{
 }
 
 p{
-    float: left;
     line-height: 150%;
-    max-width: 450px;
-
 }
 
 
